@@ -38,7 +38,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I Learned
 - Using Web Fonts in Gatsby - [Learn More](https://www.gatsbyjs.com/docs/how-to/styling/using-web-fonts/)
-- How to change favicon in Gatsby -[When Shit Breaks](https://whenshitbreaks.com/blog/how-to-change-the-favicon-in-gatsby/)
+- How to change the favicon in Gatsby -[When Shit Breaks](https://whenshitbreaks.com/blog/how-to-change-the-favicon-in-gatsby/)
 ### Awesome sections
 
 Here are some snippets of the code that I think are awwwwesome:
