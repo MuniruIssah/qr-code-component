@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `qr-code-component`,
-    siteUrl: `https://qrcodecomponentmain.gatsbyjs.io/`,
+    siteUrl: `https://qr-code-component-git-main-muniruissah.vercel.app/`,
   },
   plugins: [
     {
