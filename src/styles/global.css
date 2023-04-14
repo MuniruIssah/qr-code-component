@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    background: hsl(212, 45%, 89%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    @apply bg-white rounded-2xl p-4 w-[90vw] md:w-80  flex flex-col items-center space-y-5 pb-5 text-center shadow-lg hover:bg-gray-50 transition-all ease-in-out hover:scale-105;
+}
+.card-title{
+    @apply font-bold text-xl text-slate-700;
+}
+
+.card-description{
+    @apply text-gray-400 text-[15px] font-medium p-2;
+}
+
+.qr-image{
+    @apply w-full h-72 rounded-2xl bg-center bg-cover bg-no-repeat
+}

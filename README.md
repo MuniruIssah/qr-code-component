@@ -1,49 +1,59 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Frontend Mentor - QR code component solution
 
-## 🚀 Quick start
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-1.  **Create a Gatsby site.**
+## Table of contents
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+- [Author](#author)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-2.  **Start developing.**
+## Overview
 
-    Navigate into your new site’s directory and start it up.
+### Screenshot
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+![App Screenshot](./screenshot.png)
 
-3.  **Open the code and start customizing!**
+### Links
 
-    Your site is now running at http://localhost:8000!
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## My process
 
-4.  **Learn more**
+### Built with
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Gatsby.js](https://www.gatsbyjs.com/) - React framework
+- [Tailwind](https://tailwindcss.com/) - For styles
 
-## 🚀 Quick start (Netlify)
+### What I Learned
+- Using Web Fonts in Gatsby - [Learn More](https://www.gatsbyjs.com/docs/how-to/styling/using-web-fonts/)
+- How to change favicon in Gatsby -[When Shit Breaks](https://whenshitbreaks.com/blog/how-to-change-the-favicon-in-gatsby/)
+### Awesome sections
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+Here are some snippets of the code that I think are awwwwesome:
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+```html
+ <div className={"qr-image"} style={{backgroundImage:`url(${qr})`}}></div>
+```
+```css
+.card{
+  @apply bg-white rounded-2xl p-4 w-[90vw] md:w-80 flex flex-col items-center space-y-5 pb-5 text-center shadow-lg hover:bg-gray-50 transition-all ease-in-out hover:scale-105;
+}
+```
+
+## Author
+
+- Website - [Issah Muniru](https://www.your-site.com)
+- Frontend Mentor - [@MuniruIssah](https://www.frontendmentor.io/profile/MuniruIssah)
+- Twitter - [@ningen_dewa_nai](https://www.twitter.com/ningen_dewa_nai)
