@@ -54,6 +54,6 @@ Here are some snippets of the code that I think are awwwwesome:
 
 ## Author
 
-- Website - [Issah Muniru](https://www.your-site.com)
+- Website - [Issah Muniru](https://muniruissah.github.io/muniru-issahs-portfolio/)
 - Frontend Mentor - [@MuniruIssah](https://www.frontendmentor.io/profile/MuniruIssah)
 - Twitter - [@ningen_dewa_nai](https://www.twitter.com/ningen_dewa_nai)
