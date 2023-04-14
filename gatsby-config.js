@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `qr-code-component`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://qrcodecomponentmain.gatsbyjs.io/`,
   },
   plugins: [
     {
